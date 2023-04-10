@@ -13,11 +13,10 @@ function checkResult() {
         } else if(result >= 25 && result <= 29.99) {
             Categories = "Overweight"
         } else if(result >= 18.5 && result <= 24.99) {
-            Categories = "Normal weight"
+            Categories = "Normal"
         } else if(result <= 18.5) {
             Categories = "Underweight"
         } 
         document.getElementById("hasil").innerHTML = "Your BMI is <b>" + result + "</b> which means You are <b>" + Categories + "</b>";
     }
-
 }

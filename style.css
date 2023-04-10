@@ -21,7 +21,7 @@ body {
 }
 
 .content {
-    margin: 35px;
+    margin: 30px 60px;
     align-content: center;
     /* background-color: aqua; */
     display: grid;
@@ -29,17 +29,17 @@ body {
 
 .content h1 {
     text-align: center;
-    margin: 10px;
+    margin: 20px;
 }
 
 .content p {
-    margin: 10px 0;
+    margin: 15px 0;
     /* background-color: aliceblue; */
 }
 
 .input {
-    width: 300px;
-    height: 25px;
+    width: 94%;
+    height: 30px;
     border-radius: 5px;
     text-indent: 10px;
     border: 0.1px solid black;
@@ -48,17 +48,21 @@ body {
 button {
     width: 150px;
     height: 30px;
-    margin: 30px;
+    margin: 40px 0px 15px 0px;
     justify-self: center;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     background-color: rgb(4, 155, 255);
     border-radius: 5px;
 }
 
-/* #hasil {
+#hasil {
     width: 500px;
     height: 30px;
-    margin: 30px;
+    margin: 20px 30px;
+    text-align: center;
     justify-self: center;
-    background-color: aqua;
-} */
+    font-size: 16pt;
+    /* background-color: aqua; */
+}
