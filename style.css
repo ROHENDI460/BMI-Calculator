@@ -55,6 +55,7 @@ button {
     font-size: large;
     background-color: rgb(4, 155, 255);
     border-radius: 5px;
+    box-shadow: 2px 5px 7px black;
 }
 
 #hasil {
